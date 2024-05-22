@@ -1,7 +1,7 @@
 # Essential Guide to Pandas
 
 <p align="center">
-  <img src="https://repository-images.githubusercontent.com/785671470/0d570f2c-bb61-4c49-9b99-7fe2eda6b125" alt="essential-guide-to-pandas">
+  <img src="figures/essential-guide-to-pandas-logo.png" alt="essential-guide-to-pandas">
 </p>
 
 <p align="center">
