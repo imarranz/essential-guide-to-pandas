@@ -33,7 +33,7 @@ This repository contains the Markdown files for each chapter of the book, which 
     - `essential-guide-to-pandas.ipynb`: This Jupyter notebook contains the practical implementations and code examples used throughout the book.
   - `notes/`: This folder includes various notes that could be useful for further expansions or annotations to the book content.
   - `templates/`: A directory containing the LaTeX template used for formatting the PDF output of the book.
-    - `egtp-template.tex`: The LaTeX template file that defines the layout and style of the final document.
+    - `essential-guide-to-pandas-template.tex`: The LaTeX template file that defines the layout and style of the final document.
     - `figures/`: Stores any figures or images referenced in the book, used within the LaTeX compiled document.
   - `book.info`: Contains metadata about the book, such as the author, title, and publication date, which are included in the final PDF to provide detailed bibliographic references.
   - `LICENSE.md`: Describes the license under which the book and the repository content are distributed, clarifying how the content can be used or modified.
