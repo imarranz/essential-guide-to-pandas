@@ -9,10 +9,10 @@ InfoKey: Producer
 InfoValue: Rubió Metabolomics, S.L.U.
 InfoBegin
 InfoKey: Title
-InfoValue: Complete Guide to Pandas
+InfoValue: Essential Guide to Pandas
 InfoBegin
 InfoKey: Subject
-InfoValue: Strategies and best practices for efficient data analysis: Exploring advanced techniques and tools for effective workflow management in Data Science
+InfoValue: Harnessing the power of data analysis
 InfoBegin
 InfoKey: Keywords
-InfoValue: Data Science, Software, Python, R, SQL, pandas, numpy, scipy, SQLite, matplotlib, seaborn, TensorFlow, scikit-learn, mkflows, modelling
+InfoValue: Data Science, pandas, data, data loading, data inspection, data cleaning, data transformation, data visualization, index, data formatting, data conversion, time series, file export, data queries, data merging, matplotlib, text data, json, xml, missing, data, data reshaping, categorical data, case studies
