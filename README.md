@@ -45,33 +45,61 @@ This repository contains the Markdown files for each chapter of the book, which 
 The **Essential Guide to Pandas** is structured to provide a comprehensive introduction to the powerful Pandas library for data analysis in Python. Here is a brief overview of the chapters:
 
   1. **Data Loading**: Learn how to import data from various formats including CSV, Excel, and SQL databases to start your data analysis projects.
+
   2. **Basic Data Inspection**: Understand the structure and content of your data using basic inspection techniques such as viewing top rows, data types, and summary statistics.
+
   3. **Data Cleaning**: Tackle inconsistencies, missing values, and anomalies in your dataset to ensure data quality and reliability.
+
   4. **Data Transformation**: Explore methods to reshape, aggregate, and modify data to better suit your analytical needs.
+
   5. **Data Visualization Integration**: Integrate Pandas with libraries like Matplotlib to create insightful visualizations such as histograms, scatter plots, and bar charts.
+
   6. **Statistical Analysis**: Perform statistical analysis to understand correlations, distributions, and other statistical properties of your data.
+
   7. **Indexing and Selection**: Master techniques for selecting specific columns, rows, or segments of data using both position and label-based indexing.
+
   8. **Data Formatting and Conversion**: Convert data types and manipulate textual data within your DataFrame to prepare for analysis.
+
   9. **Advanced Data Transformation**: Delve into more complex transformations like applying lambda functions, melting data, and stacking/unstacking DataFrames.
+
   10. **Handling Time Series Data**: Manipulate time-stamped data using techniques like setting datetime indices, resampling, and rolling window operations.
+
   11. **File Export**: Learn to export your data to CSV, Excel, and SQL databases, ensuring your analyses can be shared and reproduced.
+
   12. **Advanced Data Queries**: Use advanced querying techniques like the query function and the `isin` method to extract specific insights from your data.
+
   13. **Multi-Index Operations**: Manage high-dimensional data more effectively with multi-level indexing, including creating and slicing through MultiIndexes.
+
   14. **Data Merging Techniques**: Apply SQL-like joins and other merging techniques to combine multiple datasets into a single DataFrame.
+
   15. **Dealing with Duplicates**: Identify and remove duplicate entries to clean and refine your dataset, ensuring the integrity of your analysis.
+
   16. **Custom Operations with Apply**: Extend the capabilities of Pandas by applying custom functions to DataFrames, allowing for bespoke transformations and analyses.
+
   17. **Integration with Matplotlib for Custom Plots**: Enhance your data visualizations with custom plots that leverage the full power of Matplotlib integrated with Pandas.
+
   18. **Advanced Grouping and Aggregation**: Utilize advanced grouping and aggregation to summarize data, providing insights into complex datasets.
+
   19. **Text Data Specific Operations**: Manipulate and analyze textual data within DataFrames using operations designed for string data, including regular expressions.
+
   20. **Working with JSON and XML**: Handle modern data formats like JSON and XML with Pandas for effective data interchange and integration with web technologies.
+
   21. **Advanced File Handling**: Explore advanced techniques for reading and writing data with specific configurations, enhancing the flexibility and efficiency of data management.
+
   22. **Dealing with Missing Data**: Address and impute missing data using methods such as interpolation, forward fill, and backward fill to maintain the quality of your analysis.
+
   23. **Data Reshaping**: Transform the structure of your DataFrame between wide and long formats to adapt your data for different analytical purposes.
+
   24. **Categorical Data Operations**: Efficiently manage and analyze categorical data, setting categories and ordering them appropriately for analysis.
+
   25. **Advanced Indexing**: Explore advanced indexing techniques that allow for more nuanced manipulation and retrieval of data within your DataFrames.
+
   26. **Efficient Computations**: Enhance performance through efficient computations using Pandas' capabilities like `eval()` and `query()` for faster data operations.
+
   27. **Advanced Data Merging**: Delve deeper into sophisticated data merging techniques for complex data manipulation tasks.
+
   28. **Data Quality Checks**: Implement strategies to ensure and maintain the quality of your data throughout the analysis process using tools like assertions.
+
   29. **Real-World Case Studies**: Apply the concepts and techniques learned throughout the manual to real-world scenarios using the Titanic dataset. This chapter demonstrates practical data analysis workflows, including data cleaning, exploratory analysis, and survival analysis, providing insights into how to utilize Pandas in practical applications to derive meaningful conclusions from complex data sets.
 
 Each chapter focuses on different aspects of using Pandas, from basic data handling to advanced data manipulation techniques.
@@ -115,7 +143,7 @@ Contributions to improve the manual are welcome. Please follow these steps to co
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+This project is licensed under the [MIT License](LICENSE.md).
 
 ## Contact
 
