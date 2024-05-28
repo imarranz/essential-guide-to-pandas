@@ -11,7 +11,7 @@
   <a href="LICENSE.md">
     <img src="https://img.shields.io/badge/License-MIT-red.svg?longCache=true" alt="MIT License">
   </a>
-   <a href="https://github.com/imarranz/essential-guide-to-pandas"><img src="https://img.shields.io/github/stars/imarranz/essential-guide-to-pandas" alt="Stars"/></a>
+   <a href="https://github.com/imarranz/essential-guide-to-pandas"><img src="https://img.shields.io/github/stars/imarranz/essential-guide-to-pandas" alt="Stars"/>
   </a>
 </p>
 
