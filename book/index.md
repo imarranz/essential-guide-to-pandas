@@ -1,6 +1,8 @@
 
 # Introduction
 
+![](../figures/essential-guide-to-pandas-logo.png)
+
 Welcome to our in-depth manual on Pandas, a cornerstone Python library that is indispensable in the realms of data science and analysis. Pandas provides a rich set of tools and functions that make data analysis, manipulation, and visualization both accessible and powerful.
 
 Pandas, short for "Panel Data", is an open-source library that offers high-level data structures and a vast array of tools for practical data analysis in Python. It has become synonymous with data wrangling, offering the DataFrame as its central data structure, which is effectively a table or a two-dimensional, size-mutable, and potentially heterogeneous tabular data structure with labeled axes (rows and columns).
