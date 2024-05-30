@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Ibon Martínez-Arranz">
+        <link rel="canonical" href="https://github.com/imarranz/essential-guide-to-pandas/010_data_loading.html">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Data Loading - Essential Guide to Pandas</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href=".">Essential Guide to Pandas</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="index.html" class="nav-link">Introduction</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Fundamentals of Data Handling <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="010_data_loading.html" class="dropdown-item active">Data Loading</a>
+</li>
+                                    
+<li>
+    <a href="020_basic_data_inspection.html" class="dropdown-item">Basic Data Inspection</a>
+</li>
+                                    
+<li>
+    <a href="030_data_cleaning.html" class="dropdown-item">Data Cleaning</a>
+</li>
+                                    
+<li>
+    <a href="080_data_formatting_and_conversion.html" class="dropdown-item">Data Formatting and Conversion</a>
+</li>
+                                    
+<li>
+    <a href="220_dealing_with_missing_data.html" class="dropdown-item">Dealing with Missing Data</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Data Analysis Techniques <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="040_data_transformation.html" class="dropdown-item">Data Transformation</a>
+</li>
+                                    
+<li>
+    <a href="050_data_visualization_integration.html" class="dropdown-item">Data Visualization Integration</a>
+</li>
+                                    
+<li>
+    <a href="060_statistical_analysis.html" class="dropdown-item">Statistical Analysis</a>
+</li>
+                                    
+<li>
+    <a href="090_advanced_data_transformation.html" class="dropdown-item">Advanced Data Transformation</a>
+</li>
+                                    
+<li>
+    <a href="180_advanced_grouping_and_aggregation.html" class="dropdown-item">Advanced Grouping and Aggregation</a>
+</li>
+                                    
+<li>
+    <a href="190_text_data_specific_operations.html" class="dropdown-item">Text Data Specific Operations</a>
+</li>
+                                    
+<li>
+    <a href="200_working_with_json_and_xml.html" class="dropdown-item">Working with JSON and XML</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Data Selection and Manipulation <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="070_indexing_and_selection.html" class="dropdown-item">Indexing and Selection</a>
+</li>
+                                    
+<li>
+    <a href="130_multi-index_operations.html" class="dropdown-item">Multi-Index Operations</a>
+</li>
+                                    
+<li>
+    <a href="230_data_reshaping.html" class="dropdown-item">Data Reshaping</a>
+</li>
+                                    
+<li>
+    <a href="240_categorical_data_operations.html" class="dropdown-item">Categorical Data Operations</a>
+</li>
+                                    
+<li>
+    <a href="250_advanced_indexing.html" class="dropdown-item">Advanced Indexing</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Data Integration and Export <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="100_handling_time_series_data.html" class="dropdown-item">Handling Time Series</a>
+</li>
+                                    
+<li>
+    <a href="110_file_export.html" class="dropdown-item">File Export</a>
+</li>
+                                    
+<li>
+    <a href="210_advanced_file_handling.html" class="dropdown-item">Advanced File Handling</a>
+</li>
+                                    
+<li>
+    <a href="270_advanced_data_merging.html" class="dropdown-item">Advanced Data Merging</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Quality Control and Case Studies <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="140_data_merging_techniques.html" class="dropdown-item">Data Merging Techniques</a>
+</li>
+                                    
+<li>
+    <a href="150_dealing_with_duplicates.html" class="dropdown-item">Dealing with Duplicates</a>
+</li>
+                                    
+<li>
+    <a href="160_custom_operations_with_apply.html" class="dropdown-item">Custom Operations with Apply</a>
+</li>
+                                    
+<li>
+    <a href="170_integration_with_matplotlib_for_custom_plots.html" class="dropdown-item">Integration with Matplotlib for Custom Plots</a>
+</li>
+                                    
+<li>
+    <a href="260_efficient_computations.html" class="dropdown-item">Efficient Computations</a>
+</li>
+                                    
+<li>
+    <a href="280_data_quality_checks.html" class="dropdown-item">Data Quality Checks</a>
+</li>
+                                    
+<li>
+    <a href="290_real_word_case_studies.html" class="dropdown-item">Real-World Case Studies</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="index.html" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="020_basic_data_inspection.html" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/imarranz/essential-guide-to-pandas/edit/master/docs/010_data_loading.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-light">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#data_loading" class="nav-link">Data Loading</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#read_csv_file" class="nav-link">Read CSV File</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#read_excel_file" class="nav-link">Read Excel File</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#read_from_sql_database" class="nav-link">Read from SQL Database</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="data_loading">Data Loading<a class="headerlink" href="#data_loading" title="Permanent link">#</a></h1>
+<p>Efficient data loading is fundamental to any data analysis process. Pandas offers several functions to read data from different formats, making it easier to manipulate and analyze the data. In this chapter, we will explore how to read data from CSV files, Excel files, and SQL databases using Pandas.</p>
+<h2 id="read_csv_file">Read CSV File<a class="headerlink" href="#read_csv_file" title="Permanent link">#</a></h2>
+<p>The <code>read_csv</code> function is used to load data from CSV files into a DataFrame. This function is highly customizable with numerous parameters to handle different formats and data types. Here is a basic example:</p>
+<pre><code class="language-python">import pandas as pd
+
+# Load data from a CSV file into a DataFrame
+df = pd.read_csv('filename.csv')
+</code></pre>
+<p>This command reads data from 'filename.csv' and stores it in the DataFrame <code>df</code>. The file path can be a URL or a local file path.</p>
+<h2 id="read_excel_file">Read Excel File<a class="headerlink" href="#read_excel_file" title="Permanent link">#</a></h2>
+<p>To read data from an Excel file, use the <code>read_excel</code> function. This function supports reading from both xls and xlsx file formats and allows you to specify the sheet to be loaded.</p>
+<pre><code class="language-python"># Load data from an Excel file into a DataFrame
+df = pd.read_excel('filename.xlsx')
+</code></pre>
+<p>This reads the first sheet in the Excel workbook 'filename.xlsx' by default. You can specify a different sheet by using the <code>sheet_name</code> parameter.</p>
+<h2 id="read_from_sql_database">Read from SQL Database<a class="headerlink" href="#read_from_sql_database" title="Permanent link">#</a></h2>
+<p>Pandas can also load data directly from a SQL database using the <code>read_sql</code> function. This function requires a SQL query and a connection object to the database.</p>
+<pre><code class="language-python">import sqlalchemy
+
+# Create a connection to a SQL database
+engine = sqlalchemy.create_engine('sqlite:///example.db')
+query = &quot;SELECT * FROM my_table&quot;
+
+# Load data from a SQL database into a DataFrame
+df = pd.read_sql(query, engine)
+</code></pre>
+<p>This example demonstrates how to connect to a SQLite database and read data from 'my_table' into a DataFrame.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p><b>Essential Guide to Pandas</b> <br>Copyright &#169; 2024 <a href="https://github.com/imarranz">Ibon Martínez-Arranz</a><br></p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+        <script src="search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
