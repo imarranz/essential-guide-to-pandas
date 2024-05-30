@@ -1,7 +1,7 @@
 
 # Introduction
 
-![](../figures/essential-guide-to-pandas-logo.png)
+![](images/essential-guide-to-pandas-logo.png)
 
 Welcome to our in-depth manual on Pandas, a cornerstone Python library that is indispensable in the realms of data science and analysis. Pandas provides a rich set of tools and functions that make data analysis, manipulation, and visualization both accessible and powerful.
 
