@@ -16,63 +16,63 @@ import numpy as np
 
 In this manual, we will explore the multifaceted features of Pandas, covering a wide range of functionalities that cater to the needs of data analysts and scientists. Our guide will walk you through the following key areas:
 
-  1. **Data Loading:** Learn how to efficiently import data into Pandas from different sources such as CSV files, Excel sheets, and databases.
+  1. **[Data Loading](010_data_loading.md):** Learn how to efficiently import data into Pandas from different sources such as CSV files, Excel sheets, and databases.
 
-  2. **Basic Data Inspection:** Understand the structure and content of your data through simple yet powerful inspection techniques.
+  2. **[Basic Data Inspection](020_basic_data_inspection.md):** Understand the structure and content of your data through simple yet powerful inspection techniques.
 
-  3. **Data Cleaning:** Learn to identify and rectify inconsistencies, missing values, and anomalies in your dataset, ensuring data quality and reliability.
+  3. **[Data Cleaning](030_data_cleaning.md):** Learn to identify and rectify inconsistencies, missing values, and anomalies in your dataset, ensuring data quality and reliability.
 
-  4. **Data Transformation:** Discover methods to reshape, aggregate, and modify data to suit your analytical needs.
+  4. **[Data Transformation](040_data_transformation.md):** Discover methods to reshape, aggregate, and modify data to suit your analytical needs.
 
-  5. **Data Visualization:** Integrate Pandas with visualization tools to create insightful and compelling graphical representations of your data.
+  5. **[Data Visualization](050_data_visualization_integration.md):** Integrate Pandas with visualization tools to create insightful and compelling graphical representations of your data.
 
-  6. **Statistical Analysis:** Utilize Pandas for descriptive and inferential statistics, making data-driven decisions easier and more accurate.
+  6. **[Statistical Analysis](060_statistical_analysis.md):** Utilize Pandas for descriptive and inferential statistics, making data-driven decisions easier and more accurate.
 
-  7. **Indexing and Selection:** Master the art of accessing and selecting data subsets  efficiently for analysis.
+  7. **[Indexing and Selection](070_indexing_and_selection.md):** Master the art of accessing and selecting data subsets  efficiently for analysis.
 
-  8. **Data Formatting and Conversion:** Adapt your data into the desired format, enhancing its usability and compatibility with different analysis tools.
+  8. **[Data Formatting and Conversion](080_data_formatting_and_conversion.md):** Adapt your data into the desired format, enhancing its usability and compatibility with different analysis tools.
 
-  9. **Advanced Data Transformation:** Delve deeper into sophisticated data transformation techniques for complex data manipulation tasks.
+  9. **[Advanced Data Transformation](090_advanced_data_transformation.md):** Delve deeper into sophisticated data transformation techniques for complex data manipulation tasks.
 
-  10. **Handling Time Series Data:** Explore the handling of time-stamped data, crucial for time series analysis and forecasting.
+  10. **[Handling Time Series Data](100_handling_time_series_data.md):** Explore the handling of time-stamped data, crucial for time series analysis and forecasting.
 
-  11. **File Import/Export:** Learn how to effortlessly read from and write to various file formats, making data interchange seamless.
+  11. **[File Import/Export](110_file_export.md):** Learn how to effortlessly read from and write to various file formats, making data interchange seamless.
 
-  12. **Advanced Queries:** Employ advanced querying techniques to extract specific insights from large datasets.
+  12. **[Advanced Queries](120_advanced_data_queries.md):** Employ advanced querying techniques to extract specific insights from large datasets.
 
-  13. **Multi-Index Operations:** Understand the multi-level indexing to work with high-dimensional data more effectively.
+  13. **[Multi-Index Operations](130_multi-index_operations.md):** Understand the multi-level indexing to work with high-dimensional data more effectively.
 
-  14. **Data Merging Techniques:** Explore various strategies to combine datasets, enhancing your analytical possibilities.
+  14. **[Data Merging Techniques](140_data_merging_techniques.md):** Explore various strategies to combine datasets, enhancing your analytical possibilities.
 
-  15. **Dealing with Duplicates:** Detect and handle duplicate records to maintain the integrity of your analysis.
+  15. **[Dealing with Duplicates](150_dealing_with_duplicates.md):** Detect and handle duplicate records to maintain the integrity of your analysis.
 
-  16. **Custom Operations with Apply:** Harness the power of custom functions to extend Pandas' capabilities.
+  16. **[Custom Operations with Apply](160_custom_operations_with_apply.md):** Harness the power of custom functions to extend Pandas' capabilities.
 
-  17. **Integration with Matplotlib for Custom Plots:** Create bespoke plots by integrating Pandas with Matplotlib, a leading plotting library.
+  17. **[Integration with Matplotlib for Custom Plots](170_integration_with_matplotlib_for_custom_plots.md):** Create bespoke plots by integrating Pandas with Matplotlib, a leading plotting library.
 
-  18. **Advanced Grouping and Aggregation:** Perform complex grouping and aggregation operations for sophisticated data summaries.
+  18. **[Advanced Grouping and Aggregation](180_advanced_grouping_and_aggregation.md):** Perform complex grouping and aggregation operations for sophisticated data summaries.
 
-  19. **Text Data Specific Operations:** Manipulate and analyze textual data effectively using Pandas' string functions.
+  19. **[Text Data Specific Operations](190_text_data_specific_operations.md):** Manipulate and analyze textual data effectively using Pandas' string functions.
 
-  20. **Working with JSON and XML:** Handle modern data formats like JSON and XML with ease.
+  20. **[Working with JSON and XML](200_working_with_json_and_xml.md):** Handle modern data formats like JSON and XML with ease.
 
-  21. **Advanced File Handling:** Learn advanced techniques for managing file I/O operations.
+  21. **[Advanced File Handling](210_advanced_file_handling.md):** Learn advanced techniques for managing file I/O operations.
 
-  22. **Dealing with Missing Data:** Develop strategies to address and impute missing values in your datasets.
+  22. **[Dealing with Missing Data](220_dealing_with_missing_data.md):** Develop strategies to address and impute missing values in your datasets.
 
-  23. **Data Reshaping:** Transform the structure of your data to facilitate different types of analysis.
+  23. **[Data Reshaping](230_data_reshaping.md):** Transform the structure of your data to facilitate different types of analysis.
 
-  24. **Categorical Data Operations:** Efficiently manage and analyze categorical data.
+  24. **[Categorical Data Operations](240_categorical_data_operations.md):** Efficiently manage and analyze categorical data.
 
-  25. **Advanced Indexing:** Leverage advanced indexing techniques for more powerful data manipulation.
+  25. **[Advanced Indexing](250_advanced_indexing.md):** Leverage advanced indexing techniques for more powerful data manipulation.
 
-  26. **Efficient Computations:** Optimize performance for large-scale data operations.
+  26. **[Efficient Computations](260_efficient_computations.md):** Optimize performance for large-scale data operations.
 
-  27. **Advanced Data Merging:** Explore sophisticated data merging and joining techniques for complex datasets.
+  27. **[Advanced Data Merging](270_advanced_data_merging.md):** Explore sophisticated data merging and joining techniques for complex datasets.
 
-  28. **Data Quality Checks:** Implement strategies to ensure and maintain the quality of your data throughout the analysis process.
+  28. **[Data Quality Checks](280_data_quality_checks.md):** Implement strategies to ensure and maintain the quality of your data throughout the analysis process.
 
-  29. **Real-World Case Studies**: Apply the concepts and techniques learned throughout the manual to real-world scenarios using the Titanic dataset. This chapter demonstrates practical data analysis workflows, including data cleaning, exploratory analysis, and survival analysis, providing insights into how to utilize Pandas in practical applications to derive meaningful conclusions from complex data sets.
+  29. **[Real-World Case Studies](290_real_word_case_studies.md)**: Apply the concepts and techniques learned throughout the manual to real-world scenarios using the Titanic dataset. This chapter demonstrates practical data analysis workflows, including data cleaning, exploratory analysis, and survival analysis, providing insights into how to utilize Pandas in practical applications to derive meaningful conclusions from complex data sets.
 
 This manual is designed to empower you with the knowledge and skills to effectively manipulate and analyze data using Pandas, turning raw data into valuable insights. Let's begin our journey into the world of data analysis with Pandas.
 
