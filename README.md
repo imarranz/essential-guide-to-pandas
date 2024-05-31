@@ -13,6 +13,8 @@
   </a>
    <a href="https://github.com/imarranz/essential-guide-to-pandas"><img src="https://img.shields.io/github/stars/imarranz/essential-guide-to-pandas" alt="Stars"/>
   </a>
+   <a href="https://imarranz.github.io/essential-guide-to-pandas/"><img src="https://img.shields.io/website?url=https%3A%2F%2Fimarranz.github.io%2Fessential-guide-to-pandas%2F&up_message=Essential%20Guide%20to%20Pandas" alt="Web"/>
+  </a>
 </p>
 
 <p align="center">
