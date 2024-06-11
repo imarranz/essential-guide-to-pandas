@@ -1,9 +1,61 @@
 
 # Introduction
 
-![](images/essential-guide-to-pandas-logo.png)
-
 Welcome to our in-depth manual on Pandas, a cornerstone Python library that is indispensable in the realms of data science and analysis. Pandas provides a rich set of tools and functions that make data analysis, manipulation, and visualization both accessible and powerful.
+
+
+<div class="cover">
+    <div class="cover-content">
+        <div class="cover-image">
+            <img src="images/essential-guide-to-pandas-cover.png" alt="Essential Guide to Pandas" />
+        </div>
+        <div class="cover-text">
+            <p style="color: #403724; font-size: 1.2rem;"><b>Essential Guide to Pandas</b></p>
+            <p>Welcome to our in-depth manual on Pandas, a cornerstone Python library that is indispensable in the realms of data science and analysis. Pandas provides a rich set of tools and functions that make data analysis, manipulation, and visualization both accessible and powerful.</p>
+            <p align="left">
+            <a href="https://github.com/imarranz/essential-guide-to-pandas/pulls">
+                <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true" alt="Pull Requests">
+            </a>
+            <a href="LICENSE.md">
+                <img src="https://img.shields.io/badge/License-MIT-red.svg?longCache=true" alt="MIT License">
+            </a>
+            <a href="https://github.com/imarranz/essential-guide-to-pandas"><img src="https://img.shields.io/github/stars/imarranz/essential-guide-to-pandas" alt="Stars"/>
+            </a>
+            <a href="https://github.com/imarranz/essential-guide-to-pandas"><img src="https://img.shields.io/github/last-commit/imarranz/essential-guide-to-pandas" alt="GitHub last commit"/><br>
+            <a href="https://imarranz.github.io/essential-guide-to-pandas/"><img src="https://img.shields.io/website?url=https%3A%2F%2Fimarranz.github.io%2Fdessential-guide-to-pandas%2F&up_message=Essential%20Guide%20to%20Pandas" alt="Web"/>
+            </a>
+            </p>
+        </div>
+    </div>
+</div>
+
+## Contact Information
+
+For any inquiries or further information about this project, please feel free to contact Ibon Martínez-Arranz. Below you can find his contact details and social media profiles.
+
+<div class="cover">
+    <div class="cover-content">
+        <div class="cover-image">
+            <img src="https://avatars.githubusercontent.com/u/37185918?v=4" alt="Data Science Workflow Management" />
+        </div>
+        <div class="cover-text">
+            <p style="color: #403724; font-size: 1.0rem;">I'm Ibon Martínez-Arranz, with a BSc in Mathematics and MScs in Applied Statistics and Mathematical Modeling. Since 2010, I've been with <a href="https://owlmetabolomics.com/">OWL Metabolomics</a>, initially as a researcher and now Head of the Data Science Department, focusing on Machine Learning Prediction, Statistical Computations, and supporting R&D projects.</p>
+            <a href="https://github.com/imarranz">
+                <img alt="Github" src="https://img.shields.io/badge/GitHub-FFFFFF.svg?&style=for-the-badge&logo=Github&logoColor=black" />
+            </a>
+            <a href="https://www.linkedin.com/in/ibon-martinez-arranz/">
+                <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
+            </a>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/?term=ibon+Martinez-Arranz">
+                <img alt="Pubmed" src="https://img.shields.io/badge/PubMed-326599.svg?&style=for-the-badge&logo=Pubmed&logoColor=white" />
+            </a>
+            <a href="https://orcid.org/0000-0001-9483-8426">
+                <img alt="ORCID" src="https://img.shields.io/badge/ORCID-A5CD39.svg?&style=for-the-badge&logo=ORCID&logoColor=white" />
+            </a>
+        </div>
+    </div>
+</div>
+
 
 Pandas, short for "Panel Data", is an open-source library that offers high-level data structures and a vast array of tools for practical data analysis in Python. It has become synonymous with data wrangling, offering the DataFrame as its central data structure, which is effectively a table or a two-dimensional, size-mutable, and potentially heterogeneous tabular data structure with labeled axes (rows and columns).
 
@@ -102,3 +154,30 @@ Pandas, being a cornerstone in the Python data analysis landscape, has a wealth 
     - Many online repositories and platforms host Jupyter Notebooks showcasing Pandas use cases. These interactive notebooks are excellent for learning by example and experimenting with code.
 
 By exploring these resources, you can deepen your understanding of Pandas, stay updated with the latest developments, and connect with a vibrant community of users and contributors.
+
+## Contact Information
+
+For any inquiries or further information about this project, please feel free to contact Ibon Martínez-Arranz. Below you can find his contact details and social media profiles.
+
+<div class="cover">
+    <div class="cover-content">
+        <div class="cover-image">
+            <img src="https://avatars.githubusercontent.com/u/37185918?v=4" alt="Essential Guide to Pandas" />
+        </div>
+        <div class="cover-text">
+            <p style="color: #403724; font-size: 1.0rem;">I'm Ibon Martínez-Arranz, with a BSc in Mathematics and MScs in Applied Statistics and Mathematical Modeling. Since 2010, I've been with <a href="https://owlmetabolomics.com/">OWL Metabolomics</a>, initially as a researcher and now Head of the Data Science Department, focusing on Machine Learning Prediction, Statistical Computations, and supporting R&D projects.</p>
+            <a href="https://github.com/imarranz">
+                <img alt="Github" src="https://img.shields.io/badge/GitHub-FFFFFF.svg?&style=for-the-badge&logo=Github&logoColor=black" />
+            </a>
+            <a href="https://www.linkedin.com/in/ibon-martinez-arranz/">
+                <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
+            </a>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/?term=ibon+Martinez-Arranz">
+                <img alt="Pubmed" src="https://img.shields.io/badge/PubMed-326599.svg?&style=for-the-badge&logo=Pubmed&logoColor=white" />
+            </a>
+            <a href="https://orcid.org/0000-0001-9483-8426">
+                <img alt="ORCID" src="https://img.shields.io/badge/ORCID-A5CD39.svg?&style=for-the-badge&logo=ORCID&logoColor=white" />
+            </a>
+        </div>
+    </div>
+</div>
