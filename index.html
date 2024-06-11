@@ -1,170 +1,205 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <meta name="author" content="Ibon Martínez-Arranz">
-  <link rel="canonical" href="https://github.com/imarranz/essential-guide-to-pandas/index.html">
-  <link rel="shortcut icon" href="img/favicon.ico">
-  <title>Essential Guide to Pandas - Essential Guide to Pandas</title>
-  <link rel="stylesheet" href="css/theme.css" />
-  <link rel="stylesheet" href="css/theme_extra.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
-  
-  <script>
-    // Current page data
-    var mkdocs_page_name = "Essential Guide to Pandas";
-    var mkdocs_page_input_path = "index.md";
-    var mkdocs_page_url = "/imarranz/essential-guide-to-pandas/index.html";
-  </script>
-  
-  <script src="js/jquery-2.1.1.min.js" defer></script>
-  <script src="js/modernizr-2.8.3.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script> 
-  
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="Essential Guide to Pandas" /><meta name="author" content="Ibon Martínez-Arranz" /><link rel="canonical" href="https://github.com/imarranz/essential-guide-to-pandas/index.html" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Essential Guide to Pandas</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+        <link href="css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Essential Guide to Pandas";
+        var mkdocs_page_input_path = "index.md";
+        var mkdocs_page_url = "/imarranz/essential-guide-to-pandas/index.html";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/bash.min.js"></script>
+      <script>hljs.highlightAll();</script> 
 </head>
 
 <body class="wy-body-for-nav" role="document">
 
   <div class="wy-grid-for-nav">
-
-    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href="." class="icon icon-home"> Essential Guide to Pandas</a>
-        <div role="search">
+          <a href="index.html" class="icon icon-home"> Essential Guide to Pandas
+        </a>
+        <div class="version">
+          1.0
+        </div><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="index.html">Essential Guide to Pandas</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Data Handling</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="010_data_loading.html">Data Loading</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="020_basic_data_inspection.html">Basic Data Inspection</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="030_data_cleaning.html">Data Cleaning</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="080_data_formatting_and_conversion.html">Data Formatting and Conversion</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="220_dealing_with_missing_data.html">Dealing with Missing Data</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Data Analysis</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="040_data_transformation.html">Data Transformation</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="050_data_visualization_integration.html">Data Visualization Integration</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="060_statistical_analysis.html">Statistical Analysis</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="090_advanced_data_transformation.html">Advanced Data Transformation</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="180_advanced_grouping_and_aggregation.html">Advanced Grouping and Aggregation</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="190_text_data_specific_operations.html">Text Data Specific Operations</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="200_working_with_json_and_xml.html">Working with JSON and XML</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Data Manipulation</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="070_indexing_and_selection.html">Indexing and Selection</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="130_multi-index_operations.html">Multi-Index Operations</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="230_data_reshaping.html">Data Reshaping</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="240_categorical_data_operations.html">Categorical Data Operations</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="250_advanced_indexing.html">Advanced Indexing</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Data Integration</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="100_handling_time_series_data.html">Handling Time Series</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="110_file_export.html">File Export</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="210_advanced_file_handling.html">Advanced File Handling</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="270_advanced_data_merging.html">Advanced Data Merging</a>
-                    </li>
-                </ul>
-                <p class="caption"><span class="caption-text">Quality Control</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="140_data_merging_techniques.html">Data Merging Techniques</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="150_dealing_with_duplicates.html">Dealing with Duplicates</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="160_custom_operations_with_apply.html">Custom Operations with Apply</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="170_integration_with_matplotlib_for_custom_plots.html">Integration with Matplotlib for Custom Plots</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="260_efficient_computations.html">Efficient Computations</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="280_data_quality_checks.html">Data Quality Checks</a>
-                    </li>
-                    <li class="toctree-l1"><a class="reference internal" href="290_real_word_case_studies.html">Real-World Case Studies</a>
-                    </li>
-                </ul>
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="index.html">Essential Guide to Pandas</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Data Handling</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="010_data_loading.html">Data Loading</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="020_basic_data_inspection.html">Basic Data Inspection</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="030_data_cleaning.html">Data Cleaning</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="080_data_formatting_and_conversion.html">Data Formatting and Conversion</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="220_dealing_with_missing_data.html">Dealing with Missing Data</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Data Analysis</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="040_data_transformation.html">Data Transformation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="050_data_visualization_integration.html">Data Visualization Integration</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="060_statistical_analysis.html">Statistical Analysis</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="090_advanced_data_transformation.html">Advanced Data Transformation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="180_advanced_grouping_and_aggregation.html">Advanced Grouping and Aggregation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="190_text_data_specific_operations.html">Text Data Specific Operations</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="200_working_with_json_and_xml.html">Working with JSON and XML</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Data Manipulation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="070_indexing_and_selection.html">Indexing and Selection</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="130_multi-index_operations.html">Multi-Index Operations</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="230_data_reshaping.html">Data Reshaping</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="240_categorical_data_operations.html">Categorical Data Operations</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="250_advanced_indexing.html">Advanced Indexing</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Data Integration</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="100_handling_time_series_data.html">Handling Time Series</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="110_file_export.html">File Export</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="210_advanced_file_handling.html">Advanced File Handling</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="270_advanced_data_merging.html">Advanced Data Merging</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Quality Control</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="140_data_merging_techniques.html">Data Merging Techniques</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="150_dealing_with_duplicates.html">Dealing with Duplicates</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="160_custom_operations_with_apply.html">Custom Operations with Apply</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="170_integration_with_matplotlib_for_custom_plots.html">Integration with Matplotlib for Custom Plots</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="260_efficient_computations.html">Efficient Computations</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="280_data_quality_checks.html">Data Quality Checks</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="290_real_word_case_studies.html">Real-World Case Studies</a>
+                  </li>
+              </ul>
       </div>
     </div>
     </nav>
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href=".">Essential Guide to Pandas</a>
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Essential Guide to Pandas</a>
+        
       </nav>
-
-      
       <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href=".">Docs</a> &raquo;</li>
-    
-      
-    
-    <li>Essential Guide to Pandas</li>
+    <li><a href="index.html" class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+      <li class="breadcrumb-item active">Essential Guide to Pandas</li>
     <li class="wy-breadcrumbs-aside">
-      
-        <a href="https://github.com/imarranz/essential-guide-to-pandas/edit/master/docs/index.md"
-          class="icon icon-github"> Edit on GitHub</a>
-      
+          <a href="https://github.com/imarranz/essential-guide-to-pandas/edit/master/docs/index.md" class="icon icon-github"> Edit on GitHub</a>
     </li>
   </ul>
-  
-    <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
-        <a href="010_data_loading.html" class="btn btn-neutral float-right" title="Data Loading">Next <span class="icon icon-circle-arrow-right"></span></a>
+    <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="Breadcrumb Navigation">
+        <a href="010_data_loading.html" class="btn btn-neutral float-right" title="Data Loading">Next <span class="icon icon-circle-arrow-right" aria-hidden="true"></span></a>
     </div>
-  
   <hr/>
 </div>
-          <div role="main">
-            <div class="section">
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
               
                 <h1 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">#</a></h1>
-<p><img alt="" src="images/essential-guide-to-pandas-logo.png" /></p>
 <p>Welcome to our in-depth manual on Pandas, a cornerstone Python library that is indispensable in the realms of data science and analysis. Pandas provides a rich set of tools and functions that make data analysis, manipulation, and visualization both accessible and powerful.</p>
+<div class="cover">
+    <div class="cover-content">
+        <div class="cover-image">
+            <img src="images/essential-guide-to-pandas-cover.png" alt="Essential Guide to Pandas" />
+        </div>
+        <div class="cover-text">
+            <p style="color: #403724; font-size: 1.2rem;"><b>Essential Guide to Pandas</b></p>
+            <p>Welcome to our in-depth manual on Pandas, a cornerstone Python library that is indispensable in the realms of data science and analysis. Pandas provides a rich set of tools and functions that make data analysis, manipulation, and visualization both accessible and powerful.</p>
+            <p align="left">
+            <a href="https://github.com/imarranz/essential-guide-to-pandas/pulls">
+                <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true" alt="Pull Requests">
+            </a>
+            <a href="LICENSE.md">
+                <img src="https://img.shields.io/badge/License-MIT-red.svg?longCache=true" alt="MIT License">
+            </a>
+            <a href="https://github.com/imarranz/essential-guide-to-pandas"><img src="https://img.shields.io/github/stars/imarranz/essential-guide-to-pandas" alt="Stars"/>
+            </a>
+            <a href="https://github.com/imarranz/essential-guide-to-pandas"><img src="https://img.shields.io/github/last-commit/imarranz/essential-guide-to-pandas" alt="GitHub last commit"/><br>
+            <a href="https://imarranz.github.io/essential-guide-to-pandas/"><img src="https://img.shields.io/website?url=https%3A%2F%2Fimarranz.github.io%2Fdessential-guide-to-pandas%2F&up_message=Essential%20Guide%20to%20Pandas" alt="Web"/>
+            </a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<h2 id="contact_information">Contact Information<a class="headerlink" href="#contact_information" title="Permanent link">#</a></h2>
+<p>For any inquiries or further information about this project, please feel free to contact Ibon Martínez-Arranz. Below you can find his contact details and social media profiles.</p>
+<div class="cover">
+    <div class="cover-content">
+        <div class="cover-image">
+            <img src="https://avatars.githubusercontent.com/u/37185918?v=4" alt="Data Science Workflow Management" />
+        </div>
+        <div class="cover-text">
+            <p style="color: #403724; font-size: 1.0rem;">I'm Ibon Martínez-Arranz, with a BSc in Mathematics and MScs in Applied Statistics and Mathematical Modeling. Since 2010, I've been with <a href="https://owlmetabolomics.com/">OWL Metabolomics</a>, initially as a researcher and now Head of the Data Science Department, focusing on Machine Learning Prediction, Statistical Computations, and supporting R&D projects.</p>
+            <a href="https://github.com/imarranz">
+                <img alt="Github" src="https://img.shields.io/badge/GitHub-FFFFFF.svg?&style=for-the-badge&logo=Github&logoColor=black" />
+            </a>
+            <a href="https://www.linkedin.com/in/ibon-martinez-arranz/">
+                <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
+            </a>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/?term=ibon+Martinez-Arranz">
+                <img alt="Pubmed" src="https://img.shields.io/badge/PubMed-326599.svg?&style=for-the-badge&logo=Pubmed&logoColor=white" />
+            </a>
+            <a href="https://orcid.org/0000-0001-9483-8426">
+                <img alt="ORCID" src="https://img.shields.io/badge/ORCID-A5CD39.svg?&style=for-the-badge&logo=ORCID&logoColor=white" />
+            </a>
+        </div>
+    </div>
+</div>
+
 <p>Pandas, short for "Panel Data", is an open-source library that offers high-level data structures and a vast array of tools for practical data analysis in Python. It has become synonymous with data wrangling, offering the DataFrame as its central data structure, which is effectively a table or a two-dimensional, size-mutable, and potentially heterogeneous tabular data structure with labeled axes (rows and columns).</p>
 <p>To begin using Pandas, it's typically imported alongside NumPy, another key library for numerical computations. The conventional way to import Pandas is as follows:</p>
 <pre><code class="language-python">import pandas as pd
@@ -309,24 +344,44 @@ import numpy as np
 </li>
 </ol>
 <p>By exploring these resources, you can deepen your understanding of Pandas, stay updated with the latest developments, and connect with a vibrant community of users and contributors.</p>
+<h2 id="contact_information_1">Contact Information<a class="headerlink" href="#contact_information_1" title="Permanent link">#</a></h2>
+<p>For any inquiries or further information about this project, please feel free to contact Ibon Martínez-Arranz. Below you can find his contact details and social media profiles.</p>
+<div class="cover">
+    <div class="cover-content">
+        <div class="cover-image">
+            <img src="https://avatars.githubusercontent.com/u/37185918?v=4" alt="Essential Guide to Pandas" />
+        </div>
+        <div class="cover-text">
+            <p style="color: #403724; font-size: 1.0rem;">I'm Ibon Martínez-Arranz, with a BSc in Mathematics and MScs in Applied Statistics and Mathematical Modeling. Since 2010, I've been with <a href="https://owlmetabolomics.com/">OWL Metabolomics</a>, initially as a researcher and now Head of the Data Science Department, focusing on Machine Learning Prediction, Statistical Computations, and supporting R&D projects.</p>
+            <a href="https://github.com/imarranz">
+                <img alt="Github" src="https://img.shields.io/badge/GitHub-FFFFFF.svg?&style=for-the-badge&logo=Github&logoColor=black" />
+            </a>
+            <a href="https://www.linkedin.com/in/ibon-martinez-arranz/">
+                <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
+            </a>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/?term=ibon+Martinez-Arranz">
+                <img alt="Pubmed" src="https://img.shields.io/badge/PubMed-326599.svg?&style=for-the-badge&logo=Pubmed&logoColor=white" />
+            </a>
+            <a href="https://orcid.org/0000-0001-9483-8426">
+                <img alt="ORCID" src="https://img.shields.io/badge/ORCID-A5CD39.svg?&style=for-the-badge&logo=ORCID&logoColor=white" />
+            </a>
+        </div>
+    </div>
+</div>
               
             </div>
-          </div>
-          <footer>
-  
+          </div><footer>
 
   <hr/>
 
   <div role="contentinfo">
     <!-- Copyright etc -->
-    
       <p><b>Essential Guide to Pandas</b> <br>Copyright &#169; 2024 <a href="https://github.com/imarranz">Ibon Martínez-Arranz</a><br></p>
-    
   </div>
 
-  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-      
+          
         </div>
       </div>
 
@@ -334,26 +389,35 @@ import numpy as np
 
   </div>
 
-  <div class="rst-versions" role="note" aria-label="versions">
-    <span class="rst-current-version" data-toggle="rst-current-version">
-      
-          <a href="https://github.com/imarranz/essential-guide-to-pandas/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
-      
-      
-      
-        <span style="margin-left: 15px"><a href="010_data_loading.html" style="color: #fcfcfc">Next &raquo;</a></span>
-      
-    </span>
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/imarranz/essential-guide-to-pandas" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+    
+      <span><a href="010_data_loading.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
 </div>
-    <script>var base_url = '.';</script>
-    <script src="js/theme.js" defer></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
-      <script src="search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
             SphinxRtdTheme.Navigation.enable(true);
-        };
+        });
     </script>
 
 </body>
 </html>
+
+<!--
+MkDocs version : 1.5.2
+Build Date UTC : 2024-06-11 10:22:52.638723+00:00
+-->
