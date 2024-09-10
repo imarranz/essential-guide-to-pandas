@@ -194,7 +194,7 @@ import numpy as npy
 
 # Define a custom function that returns the mean and standard deviation of a series formatted as a string
 def custom_measure(x):
-    return f&quot;{npy.mean(x):.2f} ± {npy.std(x):.2f}&quot;
+    return f&quot;{npy.mean(x):.2f} ({npy.std(x):.2f})&quot;
 
 # Create a new DataFrame with two columns 'value'
 data = {'group': ['A', 'A', 'B', 'B', 'C', 'C'],
@@ -215,9 +215,9 @@ print(grouped_df)
 <pre><code class="language-plaintext">      value1                    value2
         Mean Standard Deviation Median       Measure
 group
-A       12.5           3.535534    7.5   7.50 ± 2.50
-B       15.0           7.071068    7.5   7.50 ± 2.50
-C       25.0           7.071068   12.5  12.50 ± 2.50
+A       12.5           3.535534    7.5   7.50 (2.50)
+B       15.0           7.071068    7.5   7.50 (2.50)
+C       25.0           7.071068   12.5  12.50 (2.50)
 </code></pre>
 <h2 id="pivot_tables">Pivot Tables<a class="headerlink" href="#pivot_tables" title="Permanent link">#</a></h2>
 <p>Pivot tables are used to summarize and reorganize data in a DataFrame. Here’s an example of creating a pivot table to find the mean values:</p>
