@@ -188,6 +188,37 @@ A         25
 B         30
 C         30
 </code></pre>
+<p>The following Python script creates a DataFrame with data categorized by groups and two value columns. It then groups the data by the <code>group</code> column and applies different statistical aggregation functions to <code>value1</code> and <code>value2</code>. For <code>value1</code>, it calculates the mean and standard deviation. For <code>value2</code>, it computes the median and a custom measure which is a string combining the mean and standard deviation.</p>
+<pre><code class="language-python">import pandas as pd
+import numpy as npy
+
+# Define a custom function that returns the mean and standard deviation of a series formatted as a string
+def custom_measure(x):
+    return f&quot;{npy.mean(x):.2f} ± {npy.std(x):.2f}&quot;
+
+# Create a new DataFrame with two columns 'value'
+data = {'group': ['A', 'A', 'B', 'B', 'C', 'C'],
+        'value1': [10, 15, 10, 20, 30, 20],
+        'value2': [5, 10, 5, 10, 15, 10]}
+df = pd.DataFrame(data)
+
+# Group by the 'group' column and apply different aggregation functions to each column
+grouped_df = df.groupby('group').agg({
+    'value1': [('Mean', 'mean'), ('Standard Deviation', 'std')],  # Calculate mean and renamed standard deviation for value1
+    'value2': [('Median', 'median'), ('Measure', custom_measure)] # Calculate median and apply custom measure to value2
+})
+
+# Display the resulting DataFrame
+print(grouped_df)
+</code></pre>
+<p>Result:</p>
+<pre><code class="language-plaintext">      value1                    value2
+        Mean Standard Deviation Median       Measure
+group
+A       12.5           3.535534    7.5   7.50 ± 2.50
+B       15.0           7.071068    7.5   7.50 ± 2.50
+C       25.0           7.071068   12.5  12.50 ± 2.50
+</code></pre>
 <h2 id="pivot_tables">Pivot Tables<a class="headerlink" href="#pivot_tables" title="Permanent link">#</a></h2>
 <p>Pivot tables are used to summarize and reorganize data in a DataFrame. Here’s an example of creating a pivot table to find the mean values:</p>
 <pre><code class="language-python"># Sample DataFrame

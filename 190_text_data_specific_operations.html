@@ -183,7 +183,8 @@ print(split_description)
 <p>This splits the 'Description' column into separate columns for each word.</p>
 <h2 id="regular_expression_extraction">Regular Expression Extraction<a class="headerlink" href="#regular_expression_extraction" title="Permanent link">#</a></h2>
 <p>Regular expressions are a powerful tool for extracting patterns from text. The <code>extract</code> method applies a regular expression pattern and extracts groups from the first match:</p>
-<pre><code class="language-python"># Extracting the first word where it starts with a capital letter followed by lower case letters
+<pre><code class="language-python"># Extracting the first word where it starts with a
+# capital letter followed by lower case letters
 extracted_words = df['Description'].str.extract(r'([A-Z][a-z]+)')
 print(extracted_words)
 </code></pre>
